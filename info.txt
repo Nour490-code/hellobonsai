@@ -1,0 +1,9 @@
+WALID is the CEO of HELLOBONSAI, Bonsai is a tool to run a business anyway. He search for a frontend developer to rebuild the pricing page of the company's website but he is very strict client he need animations and responsive your challenge is to rebuild this web page again but with beautiful animations and RESPONSIVE  , he didn't give you any assets but he told you to get they but yourself from the old page and the colors anything you want search for it. 
+
+Link of the page you need to rebuild: https://www.hellobonsai.com/pricing
+DEALINE:  3/22/2023
+HINT: your color palette is : 
+#00b289
+#4c4d5f
+#fff
+#f8db62
