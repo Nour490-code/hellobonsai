@@ -76,3 +76,61 @@ li{
     padding: 0.5rem 1rem;
     border-radius: 2rem;
 }
+
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+}
+
+.showcase-title{
+    text-align: center;
+    width: 50%;
+}
+
+.showcase-title h1 {
+    font-size: 55px;
+    color: #003c2f;
+}
+
+.pay-plan{
+    width: 50%;
+    margin: auto;
+    background-color: #f0f5f0;
+    padding: .6rem 0px;
+    border-radius: 5rem;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pay-plan:nth-child(2){
+    color: #ffff;
+}
+.pay-plan--plans{
+    background-color: #003c2f;
+    border-radius: 5rem;
+    padding: .7rem 18px;
+}
+
+.pay-plan--yearly {
+    color: #fff;
+}
+
+.pay-plan--free{
+    background-color: #fff;
+    padding: 5px 9px;
+    color: #2bb90a;
+    font-size: 10px;
+    border-radius: 5rem;
+    margin-left: 1rem;
+}
+
+.plans{
+    display: flex;
+    flex-direction: row;
+}
