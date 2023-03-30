@@ -63,9 +63,6 @@ li{
 .extra-links a{
     color: rgba(101,129,109,.7);
 }
-.btns{
-    margin-right: 1rem;
-}
 
 .btns .link{
     padding-right: 0.5rem;
@@ -133,4 +130,123 @@ li{
 .plans{
     display: flex;
     flex-direction: row;
+    width: 74%;
+    justify-content: center;
+    padding: 5rem 0 0 0;
 }
+
+.plan {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
+    padding: 4rem 2.5rem 1rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+.last{
+    margin-right: 0;
+}
+.plan h1{
+    text-align: center;
+    color: #003c2f;
+    font-size: 32px;
+}
+.plan .cta{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #003c2f;
+    margin: 1rem 0;
+}
+
+.price span {
+    color: #65816d;
+    opacity: .5;
+    font-size: 14px;
+}
+.plan ul {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 7rem 1.5rem 0;
+    width: 100%;
+}
+.plan ul li{
+    color: #003c2f;
+    font-size: 15px;
+    padding: 0;
+}
+.plan p{
+    color:#65816d;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 0.1px solid #65816d33;
+    padding-bottom: 1.2rem;
+}
+
+/* .plans--highlight{
+
+} */
+
+.add-ons{
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add-ons--title{
+    text-align: center;
+    color: #003c2f;
+    font-size: 42px;
+    width: 40%;
+}
+
+.add-ons .wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 77%;
+    padding-top: 4rem;
+}
+
+.wrapper .block{
+    border: 1px solid #d3dcd4;
+    border-radius: 20px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.block .text{
+    margin-bottom: 3rem;
+}
+
+.block p {
+    font-size: 15px;
+    color: #65816d;
+}
+
+.block a{
+    border-bottom: 0.3px solid #2bb90a;
+    color: #2bb90a;
+    width: 40%;
+}
+
+.flex-end{
+    align-self: flex-end;
+}
+
+.block h2, .block .price h1{
+    font-size: 32px;
+    color: #003c2f;
+}
+
+.add-ons .wrapper .last .text{
+    margin-top: 1rem;
+}
+
