@@ -41,6 +41,10 @@ a{
     color: var(--text-nav);
 }
 
+a:hover{
+    color: #22ad01;
+}
+
 .link{
     font-size: 15px;
     font-weight: 500;
@@ -72,6 +76,10 @@ li{
     background-color: #2bb90a;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
+}
+
+.cta:hover{
+    color: #fff;
 }
 
 
@@ -279,9 +287,109 @@ li{
     padding-top: 4rem;
 }
 
-.questions--wrapper h4{
+.questions--wrapper h5{
     padding-bottom: 2rem;
     color: #003c2f;
     border-bottom: 0.1px solid #65816d33;
     margin-bottom: 3rem;
+}
+
+.testimonial{
+    margin-top: 5rem;
+    overflow-x: hidden;
+}
+ 
+.testimonial h2{
+    color: #003c2f;
+    font-size: 42px;
+    width: 46%;
+    margin-bottom: 1.5rem;
+}
+
+.testimonials--comments{
+    background-color: #ecf1ec;
+    border-radius: 10px;
+    width: auto;
+    font-size: 17px;
+}
+
+.testimonials--comments p{
+    margin: 0;
+}
+
+.testimonials--comments-wrapper{
+    margin-top: 5rem;
+}
+
+.contact-us{
+    margin-top: 8rem;
+    font-size: 14px;
+}
+
+.contact-us img{
+    width: 100%;
+}
+.contact-us h4 {
+    color: #003c2f;
+    font-size: 28px;
+    line-height: 100%;
+    font-weight: 700;
+}
+.contact-us p {
+    color: #65816d;
+}
+.contact-us--link{
+    color: #22ad01;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.contact-wrapper{
+    padding-left: 2rem;
+}
+
+.help{
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.call-to-action a{
+    padding: 2rem 5rem;
+}
+
+.banner{
+    background-image:url('/imgs/banner.png');
+    background-color: #003c2f;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 60px;
+    color: #fff;
+    padding: 5rem 0;
+    width: 80%;
+    margin: 5rem auto 3rem auto;
+}
+
+.banner p{
+    font-size: 24px;
+}
+footer{
+    width: 100%;
+    margin: auto;
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+}
+footer img{
+    width: 50%;
+    margin-bottom: 2.5rem;
+}
+
+footer ul{
+    padding: 0;
+    padding-top: 1rem;
+}
+
+footer .link{
+    font-size: 12px;
+    padding-top: 0.4rem;
 }
